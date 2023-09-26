@@ -1,0 +1,26 @@
+header {
+  width: 100%;
+  background-color: grey;
+}
+ul{
+  text-align: right;
+  color: #ffffff;
+}
+
+li {
+  display: inline;
+  list-style-type: none;
+  font-size: 40px;
+}
+
+section {
+  height: 200px;
+  width: 80%;
+  margin: 30px auto;
+}
+
+h1,
+h2,
+h3 {
+  text-align: left;
+}
