@@ -112,6 +112,10 @@ footer {
   margin-top: auto;
 }
 
+footer li {
+  color: black;
+}
+
 footer h2 {
   text-align: left;
 }
