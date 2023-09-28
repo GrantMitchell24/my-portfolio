@@ -12,4 +12,4 @@ Author: Grant Mitchell
 
 License: See Repo
 
-![Preview image](./Assets/images/portfolio-screenshot.png)
+![Preview image](./assets/images/portfolio-screenshot.png)
