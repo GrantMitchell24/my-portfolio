@@ -2,8 +2,6 @@ This is My Portfolio. This is designed to tell a litle bit about myself, along w
 
 The website has a functional header, that will direct you to About Me, My Work, Contact Information, and my Resume. The the "Work" section, the first card has my first project on GitHub. The next 3 are some of my interests, weather, gaming and NFL. The last card has a link to Yahoo. The footer has all of my contact information along with icons to simply go to designated location.
 
-(<Screenshot 2023-09-28 at 4.17.42 PM.png>)
-
 REPO LINK:
 https://github.com/GrantMitchell24/my-portfolio 
 
@@ -13,3 +11,5 @@ https://grantmitchell24.github.io/my-portfolio/
 Author: Grant Mitchell
 
 License: See Repo
+
+![Preview image](./assets/images/portfolio-screenshot.png)
