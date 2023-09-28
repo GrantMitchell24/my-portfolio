@@ -1,95 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Portfolio</title>
+  <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+  <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"
+    type='text/css'>
   <link rel="stylesheet" href="Assets/css/style.css" />
 </head>
 
 <body>
   <header>
-   <h1>Grant Mitchell</h1>
-   <nav>
-    <ul>
-      <li><a href="#">About Me </a></li>
-      <li><a href="#">Work </a></li>
-      <li><a href="#">Contact Me</a></li>
-      <li><a href="#">Resume</a></li>
-    </ul>
-  </nav>
+    <h1>Grant Mitchell</h1>
+    <nav>
+      <ul>
+        <li><a href="#aboutMe">About Me </a></li>
+        <li><a href="#projects">Work </a></li>
+        <li><a href="#footer">Contact Me</a></li>
+        <li><a href="#">Resume</a></li>
+      </ul>
+    </nav>
   </header>
-  <img id="relative-box" src="assets/images/binary-code-banner.jpg" alt="coding banner"/>
-<main>
-  <section>
-    <h2>About Me</h2>
-    <h3>My name is Grant Mitchell. I am currently in the coding bootcamp at the University of Minnesota. It has been a long journey for me to be here. I have 10 years of experience in the customer success industry. I soon realized that this was not what I wanted to be doing for the rest of my life. It was time a career change, and I had always had coding in the back of my mind. I am so excited for this bootcamp and all of the knowledge that I will leave with. I cannot wait to see what the next chapter of my professional career looks like after completing this coding bootcamp. </h3>
-  </section>
+  <img id="relative-box" src="assets/images/binary-code-banner.jpg" alt="coding banner" />
+  <main>
+    <img id="about-me-picture" src="Assets/images/IMG_0333.jpg" alt="my picture" />
+    <section id="aboutMe">
+      <h2>About Me</h2>
+      <h3>My name is Grant Mitchell. I am currently in the coding bootcamp at the University of Minnesota. It has been a
+        long journey for me to be here. I have 10 years of experience in the customer success industry. I soon realized
+        that this was not what I wanted to be doing for the rest of my life. It was time a career change, and I had
+        always had coding in the back of my mind. I am so excited for this bootcamp and all of the knowledge that I will
+        leave with. I cannot wait to see what the next chapter of my professional career looks like after completing
+        this coding bootcamp. </h3>
+    </section>
 
-<h2 id="work">Work</h2>
-<section class ="projects">
+    <h2 id="work">Work</h2>
+    <section class="projects" id="projects">
 
-  <div class="card" id="priority">
-    <a href="https://github.com/GrantMitchell24/semantic-html" target="blank">
-      <img src="Assets/images/semantic-html.png" alt="semantic html website">
-      <div class ="card-text">
-        <h3>Semantic HTML</h3>
-        <p>HTML/CSS</p>
-      </div>
-    </a>
-  </div>
-
-  <div class="card">
-     <a href="https://www.weather.com/" target="blank"></a>
-      <img src="Assets/images/weather.jpeg" alt="Weather">
-      <div class="card-text">
-        <h3>Placeholder Project</h3>
-        <p>Weather</p>
-      </div>
-    </a>
-  </div>
-
-  <div class="card">
-    <a href="https://www.twitch.com/BattleHarden8" target="blank"></a>
-      <img src="Assets/images/fortnite-twitch.png" alt="Streaming">
-      <div class="card-text">
-        <h3>Twitch Streaming</h3>
-        <p>Twitch</p>
-      </div>
-     </a>
-  </div>
-
-  <div class="card">
-      <a href="https://www.nfl.com" target="blank"></a>
-        <img src="Assets/images/nfl.png" alt="Football">
+      <div class="card" id="priority">
+        <a href="https://github.com/GrantMitchell24/semantic-html" target="blank">
+          <img src="Assets/images/semantic-html.png" alt="semantic html website">
+        </a>
         <div class="card-text">
-        <h3>NFL</h3>
-        <p>Football</p>
+          <h3>Semantic HTML</h3>
+          <p>HTML/CSS</p>
         </div>
-      </a>
-  </div>
-
-
-  <div class="card">
-    <a href="https://www.yahoo.com" target="blank"></a>
-      <img src="Assets/images/yahoo.png" alt="Yahoo">
-      <div class="card-text">
-      <h3>Yahoo</h3>
-      <p>Yahoo</p>
       </div>
-    </a>
-</div>
-  
-</div>
 
-</section>
-</main>
+      <div class="card">
+        <a href="https://www.weather.com/" target="blank">
+          <img src="Assets/images/weather.jpeg" alt="Weather">
+        </a>
+        <div class="card-text">
+          <h3>Placeholder Project</h3>
+          <p>Weather</p>
+        </div>
+      </div>
 
-  <footer> 
+      <div class="card">
+        <a href="https://www.twitch.com/BattleHarden8" target="blank">
+          <img src="Assets/images/fortnite-twitch.png" alt="Streaming">
+        </a>
+        <div class="card-text">
+          <h3>Twitch Streaming</h3>
+          <p>Twitch</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <a href="https://www.nfl.com" target="blank">
+          <img src="Assets/images/nfl.png" alt="Football">
+        </a>
+        <div class="card-text">
+          <h3>NFL</h3>
+          <p>Football</p>
+        </div>
+      </div>
+
+
+      <div class="card">
+        <a href="https://www.yahoo.com" target="blank">
+          <img src="Assets/images/yahoo.png" alt="Yahoo">
+        </a>
+        <div class="card-text">
+          <h3>Yahoo</h3>
+          <p>Yahoo</p>
+        </div>
+      </div>
+
+      </div>
+
+    </section>
+  </main>
+
+  <footer id="footer">
     <h2>Contact Me</h2>
     <ul>
       <li>763-807-5677</li>
-      <li> <a href="mailto:grantmitchell2423@yahoo.com">GrantMitchell2423@yahoo.com</a></li>
+      <li>
+        <a href="mailto:grantmitchell2423@yahoo.com">
+          <i class="fa fa-envelope" aria-hidden="true"></i>
+        </a>
+      </li>
+      <!-- <li> <a href="mailto:grantmitchell2423@yahoo.com">GrantMitchell2423@yahoo.com</a></li> -->
       <li> <a href="https://github.com/grantmitchell24">Github</a></li>
       <li> <a href="https://google.com">Twitter</a></li>
     </ul>
